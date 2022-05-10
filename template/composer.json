@@ -1,0 +1,36 @@
+{
+  "name": "ndigitals/wc-phpunit",
+  "description": "WooCommerce PHPUnit library",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Tim Nolte",
+      "email": "tim.nolte@ndigitals.com"
+    },
+    {
+      "name": "WooCommerce",
+      "homepage": "https://woocommerce.github.io/"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "woocommerce",
+    "phpunit",
+    "test"
+  ],
+  "homepage": "https://github.com/ndigitals/wc-phpunit",
+  "support": {
+    "source": "https://github.com/ndigitals/wc-phpunit",
+    "issues": "https://github.com/ndigitals/wc-phpunit-build/issues",
+    "docs": "https://github.com/ndigitals/wc-phpunit/wiki"
+  },
+  "autoload": {
+    "files": [
+      "__loaded.php"
+    ]
+  },
+  "require": {
+    "wp-phpunit/wp-phpunit": "*"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ndigitals/wc-phpunit-build",
+  "description": "The project for building and maintaining the wc-phpunit package.",
+  "type": "project",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Tim Nolte",
+      "email": "tim.nolte@ndigitals.com"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Build\\": "src"
+    }
+  },
+  "scripts": {
+    "clean": "rm -rf build/* repos/package repos/wordpress",
+    "build": "bin/build"
+  },
+  "require": {
+    "comodojo/zip": "^3.1",
+    "composer/semver": "^3.3",
+    "illuminate/container": "^8.83",
+    "illuminate/support": "^8.83",
+    "kzykhys/git": "^0.1.2",
+    "monolog/monolog": "^1.0",
+    "symfony/filesystem": "^5.4",
+    "symfony/finder": "^5.4",
+    "symfony/options-resolver": "^5.4",
+    "symfony/process": "^5.4"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.4"
+  }
+}
