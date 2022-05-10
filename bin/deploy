@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+cd repos/package
+git push -u origin --all
+git push -u origin --tags
